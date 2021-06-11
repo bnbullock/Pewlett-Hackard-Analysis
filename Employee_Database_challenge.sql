@@ -37,4 +37,19 @@ INTO unique_titles
 FROM retirement_titles
 ORDER BY emp_no, to_date DESC;
 
+-- Check the table
+SELECT * FROM unique_titles;
+
 --#13 Export unique_titles table to a csv file manually
+
+--#15-18 
+
+SELECT COUNT(title) as "Count", title
+INTO retiring_titles
+FROM unique_titles
+GROUP BY title
+ORDER BY "Count" DESC;
+
+-- Check the table
+SELECT * FROM retiring_titles;
+
