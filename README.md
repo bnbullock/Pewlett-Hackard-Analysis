@@ -16,43 +16,46 @@ Pewlett Hackard(PH) is a large company that has been around for a very long time
 
 ## Results
 
-To prepare the analysis the original data was loaded into different database tables and relationships establised to give us a working understanding of the entity relationship diagram shown below.
+To prepare the analysis the original data was loaded into different database tables and relationships establised to give us a working understanding of the database structure. The following entity relationship diagram(ERD) was designed to provide implementation guidance and as a documentary guide for future reference.
 
 ![ERD Model](images/EmployeeDB_ERD.png)
 
 
 ### Retiring Employees by Title
 
-- From the list below we are able to determine that there are 90,398 employees who will be retiring. A closer examination shows that 63.8% of employees are either Senior Staff or Senior Engineers
+- From the list below we are able to determine that there are 90,398 employees who meet the criteria for the retirement package. A summary list and a sample list are provided below for reference.
+- A closer examination shows that 63.8% of employees are either Senior Staff or Senior Engineers. These employees have a lot knowledge and it would be wise to have them transfer as much information as possible to new employees or their junior counterparts.
+- It should also be noted that there are 2 managers who are likewise eligible for retirement. As this is a leadership position it is important that new managers are vetted and become understudies as soon as possible to ensure a smooth transition.
 
 ![Retiring Titles](images/Retiring_Titles.png)
-
-
-- Shows a sample list of employees by name
 
 ![Unique Titles](images/Unique_Titles.png)
 
 
 ### Employees Eligible for Mentorship
 
-- There are 
-
+- Based on the criteria provided there are 1549 qualified mentors found in current employment at PH. A sample list of these employees is shown below.
+- _point 3_
+- _point 4_
+  
 ![Mentorship Eligibility](images/Mentorship_Eligibility.png)
 
-- point 3
-- point 4
 
 ## Overall Summary
-- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
+_- How many roles will need to be filled as the "silver tsunami" begins to make an impact?_
+- Eventually 90,398 new roles will need to be filled for PH as the impact of retirement begins to unfold.
+- Of specific note when analyzing the different current employee groups, we can see that there are currently 4 departments that do not currently have a manager allocated in a leadership position.
+- Further, 2 of the 5 current managers are eligible for the retirement package.
+- It is imperative that new and qualified managerial candiates be identified and placed into these position as soon as possible. Managerial inputby department will be a necessity in job assignments and allocating mentors in a suitable manner.
 
-- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+![Mentorship Eligibility](images/Summary_Managers.png)
 
-- Of the employees who qualify for mentorship the following breakdown outlines the different roles where a person are qualified to mentor: 
-
-![Mentorship Eligibility](images/Mentorship_Titles.png)
-
-- Further analysis shows us that if all Mentors accepted positions they will have the following ratios for new employees to deal with.
+_- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?_
+- Of the employees who qualify as retirement-ready mentors, the following breakdown outlines the different roles they are able to provide mentorship for PH.
+- Further analysis shows us that if all employees accepted mentorship positions they will have the following ratios of new employees to actively advise.
+- We can clearly see that the Sr. Engineer position should be a point of emphasis as there is a ratio of 1 mentor for 174 new employees.
+- Likewise we have no managerial mentors available to advise new managers.
 
 Title               | Mentorship ratio  |
 --------------------|--------------------
@@ -64,5 +67,3 @@ Title               | Mentorship ratio  |
  Assistant Engineer | 1 to 23           |
  Manager            | zero              |
  ----------------------------------------
-
-## Recommendations:
