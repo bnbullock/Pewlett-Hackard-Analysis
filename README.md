@@ -24,9 +24,9 @@ To prepare the analysis the original data was loaded into different database tab
 
 ### Retiring Employees by Title
 
-- From the list below we are able to determine that there are 90,398 employees who meet the criteria for the retirement package. A summary list and a sample list are provided below for reference.
+- From the list below we are able to determine that there are 90,398 employees who meet the criteria for the retirement package. A summary list and a sample list are both provided below for reference.
 - A closer examination shows that 63.8% of employees are either Senior Staff or Senior Engineers. These employees have a lot knowledge and it would be wise to have them transfer as much information as possible to new employees or their junior counterparts.
-- It should also be noted that there are 2 managers who are likewise eligible for retirement. As this is a leadership position it is important that new managers are vetted and become understudies as soon as possible to ensure a smooth transition.
+- It should also be noted that there are 2 managers who are likewise eligible for retirement. As this is a leadership position it is important that new managers are vetted and become understudies as soon as possible to ensure that proper leadership is in place to ensure a smooth transition.
 
 ### Employee Groups Qualifying for the Retirement Package
 
@@ -39,7 +39,7 @@ To prepare the analysis the original data was loaded into different database tab
 ### Mentorship Eligibility
 
 - Based on the criteria provided there are 1549 qualified mentors found in current employment at PH. A sample list of these employees is shown below.
-- No managers qualify as mentors
+- Six of the seven different groups are represented in the list, with no managers qualifying as mentors.
 
 ### Eligible Employees who Qualify as Mentors
 
@@ -48,7 +48,6 @@ To prepare the analysis the original data was loaded into different database tab
 
 ## Summary Analysis
 
-_- How many roles will need to be filled as the "silver tsunami" begins to make an impact?_
 - Eventually 90,398 new roles will need to be filled for PH as the impact of retirement begins to unfold.
 - Of specific note when analyzing the different current employee groups, we can see that there are currently 4 departments that do not currently have a manager allocated in a leadership position.
 - Further, 2 of the 5 current managers are eligible for the retirement package.
@@ -58,8 +57,10 @@ _- How many roles will need to be filled as the "silver tsunami" begins to make 
 
 ![Summary Managers](images/Summary_Managers.png)
 
-_- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?_
 - Of the 1,549 employees who qualify as retirement-ready mentors from the list below, the following breakdown outlines the different roles they are able to provide mentorship for PH.
+- Generally, it appears that there is a good level of coverage amongst the groups.
+- Each employee group is represented except the manager group as noted previously.
+
 
 ### Mentors by Title
 
