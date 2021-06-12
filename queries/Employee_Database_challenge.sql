@@ -16,21 +16,21 @@ SELECT e.emp_no,
 	e.first_name,
 	e.last_name,
 	t.title,
-	from_date,
-	to_date
+	t.from_date,
+	t.to_date
 INTO retirement_titles
 FROM employees as e
 INNER JOIN titles AS t
 ON (e.emp_no = t.emp_no)
 WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
-order by emp_no;
+ORDER BY emp_no;
 
 -- Check the table
 SELECT * FROM retirement_titles;
 
 --#6,7 Export retirement_titles table to a csv file manually
-
 --#8-12 Use Dictinct with Orderby to remove duplicate rows
+
 SELECT DISTINCT ON (emp_no) emp_no,
 first_name,
 last_name,
@@ -44,7 +44,7 @@ SELECT * FROM unique_titles;
 
 --#13 Export unique_titles table to a csv file manually
 
---#15-18 
+--#15-18 New Query, retrieve employee count by title
 
 SELECT COUNT(title) as "Count", title
 INTO retiring_titles
@@ -55,6 +55,7 @@ ORDER BY "Count" DESC;
 -- Check the table
 SELECT * FROM retiring_titles;
 
+--#19 Export table to csv file - manually
 
 -- Deliverable #2
 
@@ -75,7 +76,7 @@ SELECT DISTINCT ON (e.emp_no) e.emp_no,
 	de.from_date,
 	de.to_date,
 	t.title
-INTO mentorship_eligibilty
+INTO mentorship_eligibility
 FROM employees as e
 INNER JOIN dept_emp as de
 ON (e.emp_no = de.emp_no)
@@ -85,6 +86,32 @@ WHERE (de.to_date = '9999-01-01') AND (e.birth_date BETWEEN '1965-01-01' AND '19
 order by e.emp_no;
 
 -- Check the table
-SELECT * FROM mentorship_titles;
+SELECT * FROM mentorship_eligibilty;
 
 --#10 Export Mentorship Eligibility table - manually
+
+-- Summary #1
+
+SELECT e.emp_no,
+	e.first_name,
+	e.last_name,
+	t.title,
+	from_date,
+	to_date
+INTO retirement_titles
+FROM employees as e
+INNER JOIN titles AS t
+ON (e.emp_no = t.emp_no)
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+order by emp_no;
+
+
+
+-- Summary #2 
+
+SELECT * FROM mentorship_eligibility;
+
+SELECT COUNT(title) as "Count", title
+FROM mentorship_eligibility
+GROUP BY title
+ORDER BY "Count" DESC;
