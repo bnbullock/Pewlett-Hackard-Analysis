@@ -7,13 +7,14 @@ Pewlett Hackard(PH) is a large company that has been around for a very long time
 - Deliverables:
   1. Determine the number of retiring employees by title
   2. Identify employees who are eligible to be in the mentorship program
+---------------------------
 
 ## Resources
 - Database Client: pgAdmin v5.2
 - Database Server: PostgreSQL v13
 - CSV Files created: retirement_titles.csv, unique_titles.csv, retiring_titles.csv, mentorship_eligibility.csv
 - Software: Visual Studio Code 1.56.2
-
+---------------------------
 
 ## Results
 
@@ -43,7 +44,7 @@ To prepare the analysis the original data was loaded into different database tab
 ### Eligible Employees who Qualify as Mentors
 
 ![Mentorship Eligibility](images/Mentorship_Eligibility.png)
-
+---------------------------
 
 ## Summary Analysis
 
@@ -53,20 +54,22 @@ _- How many roles will need to be filled as the "silver tsunami" begins to make 
 - Further, 2 of the 5 current managers are eligible for the retirement package.
 - It is imperative that new and qualified managerial candiates be identified and placed into these position as soon as possible. Managerial input by department will be a necessity in job assignments and allocating mentors in a suitable manner.
 
-### Employee Groups Qualifying for the Retirement Package
+### Managers by Department
 
 ![Summary Managers](images/Summary_Managers.png)
 
 _- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?_
 - Of the 1,549 employees who qualify as retirement-ready mentors from the list below, the following breakdown outlines the different roles they are able to provide mentorship for PH.
 
-### Sample of Employees from above
+### Mentors by Title
 
 ![Mentorship Titles](images/Mentorship_Titles.png)
 
 - Further analysis shows us that if all employees accepted mentorship positions they will have the following ratios of new employees to actively advise.
-- We can clearly see that the Sr. Engineer position should be a point of emphasis as there is a ratio of 1 mentor for 174 new employees. Possible considerations would be to change the mentorship criteria or seek mentors outside of PH in the broader engineering bsiness community.
+- We can clearly see that the Sr. Engineer position should be a point of emphasis as there is a ratio of 1 mentor for a possible 174 new employees. Viable considerations would be to change the mentorship criteria or seek mentors outside of PH in the broader engineering business community.
 - Likewise we have no managerial mentors available to advise new managers.
+
+### Mentorship to New Employee Ratio
 
 Title               | Mentorship ratio  |
 --------------------|--------------------
