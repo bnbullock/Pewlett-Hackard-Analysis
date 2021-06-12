@@ -1,16 +1,3 @@
-
---HERE--
--- Summary #1
--- Employee count by department
-SELECT COUNT(ce.emp_no), dm.dept_no, d.dept_name
-FROM current_emp as ce
-LEFT JOIN dept_manager as dm
-ON ce.emp_no = dm.emp_no
-RIGHT JOIN departments as d
-ON dm.dept_no = d.dept_no
-GROUP BY dm.dept_no, d.dept_name
-ORDER BY dm.dept_no;
-
 ---------------------------------------------
 -- Summary #1
 ---------------------------------------------
@@ -27,7 +14,7 @@ ORDER BY dm.dept_no;
 
 SELECT * FROM unique_titles;
 
--- Managers who are eligible for the retirement package 
+-- Current managers who are eligible for the retirement package 
 SELECT ut.first_name, ut.last_name, ut.title  
 FROM unique_titles AS ut
 WHERE title = 'Manager';
@@ -38,9 +25,11 @@ WHERE title = 'Manager';
 
 -- Current employees who can be mentors grouped by title
 
-SELECT * FROM mentorship_eligibility;
-
 SELECT COUNT(title) AS "Count", title
+INTO mentor_roles
 FROM mentorship_eligibility
 GROUP BY title
 ORDER BY "Count" DESC;
+
+-- Check the table
+SELECT * FROM mentor_roles;
