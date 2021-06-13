@@ -66,9 +66,9 @@ To prepare the different analyses requested by PH, the original data was loaded 
 
 ![Retirement Managers](images/Summary_Managers2.png)
 
-- Of the 1,549 employees who qualify as retirement-ready mentors from the list below, the following breakdown outlines the different roles they are able to provide mentorship for new employees of PH.
-- Generally, it appears that there is a good level of coverage amongst the different employee groups.
-- Each employee group is represented except the manager group as noted previously.
+- There are 1,549 employees who qualify as retirement-ready mentors from the list below. The following breakdown outlines the different associated mentorship roles each can provide to new employees of PH.
+- Generally, it appears that there is a good level of representation amongst the different employee groups.
+- Each employee group is covered except the manager group as noted previously.
 
 ### Mentors by Title
 
