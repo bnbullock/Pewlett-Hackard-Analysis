@@ -34,7 +34,7 @@ To prepare the different analyses, the original data was loaded into different d
 
 ![Retiring Titles](images/Retiring_Titles.png)
 
-### Sample of Employees
+### Retiring Titles Table
 
 ![Unique Titles](images/Unique_Titles.png)
 
@@ -53,7 +53,7 @@ To prepare the different analyses, the original data was loaded into different d
 
 - Eventually 90,398 new roles will need to be filled for PH as the impact of retirement begins to unfold for the baby boomers employed at PH.
 - Of specific note when analyzing the different business units below, we can see that there are four departments that do not currently have a manager allocated in a leadership position.
-- Further, 2 of the 5 current managers are eligible for the retirement package as identified below.
+- Further, 2 of the 5 current managers are eligible for the retirement package as identified below in the table report.
 - It is imperative that new and qualified managerial candiates be hired or promoted internally and placed into these position as soon as possible. Managerial input for each business group will be a necessity in job assignments and allocating mentors in a suitable manner.
 
 ### Managers by Department
