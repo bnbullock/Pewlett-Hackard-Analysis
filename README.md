@@ -7,7 +7,7 @@ Pewlett Hackard(PH) is a large company that has been around for a very long time
 - Deliverables:
   1. Determine the number of retiring employees by title
   2. Identify employees who are eligible to be in the mentorship program
----------------------------
+------------------------------------------------------------------------------------------------------------
 
 ## Resources
 - Database Client: pgAdmin v5.2
@@ -15,7 +15,7 @@ Pewlett Hackard(PH) is a large company that has been around for a very long time
 - Database ERD Design: www.quickdatabasediagrams.com
 - CSV Files created: retirement_titles.csv, unique_titles.csv, retiring_titles.csv, mentorship_eligibility.csv, mentor_roles.csv
 - Software: Visual Studio Code 1.56.2
----------------------------
+------------------------------------------------------------------------------------------------------------
 
 ## Results
 
@@ -47,7 +47,8 @@ To prepare the different analyses, the original data was loaded into different d
 ### Eligible Employees who Qualify as Mentors
 
 ![Mentorship Eligibility](images/Mentorship_Eligibility.png)
----------------------------
+
+------------------------------------------------------------------------------------------------------------
 
 ## Summary Analysis
 
