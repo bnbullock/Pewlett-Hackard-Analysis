@@ -51,17 +51,20 @@ To prepare the different analyses, the original data was loaded into different d
 
 - Eventually 90,398 new roles will need to be filled for PH as the impact of retirement begins to unfold.
 - Of specific note when analyzing the different employee groups, we can see that there are four departments that do not currently have a manager allocated in a leadership position.
-- Further, 2 of the 5 current managers are eligible for the retirement package.
-- It is imperative that new and qualified managerial candiates be identified and placed into these position as soon as possible. Managerial input by department will be a necessity in job assignments and allocating mentors in a suitable manner.
+- Further, 2 of the 5 current managers are eligible for the retirement package as listed below.
+- It is imperative that new and qualified managerial candiates be identified and placed into these position as soon as possible. Managerial input for each business unit will be a necessity in job assignments and allocating mentors in a suitable manner.
 
 ### Managers by Department
 
-![Summary Managers](images/Summary_Managers.png)
+![Summary Managers](images/Summary_Managers1.png)
+
+### Managers Qualifying for Retirement
+
+![Retirement Managers](images/Summary_Managers2.png)
 
 - Of the 1,549 employees who qualify as retirement-ready mentors from the list below, the following breakdown outlines the different roles they are able to provide mentorship for PH.
 - Generally, it appears that there is a good level of coverage amongst the different business units.
 - Each employee group is represented except the manager group as noted previously.
-
 
 ### Mentors by Title
 
