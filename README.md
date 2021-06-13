@@ -19,7 +19,7 @@ Pewlett Hackard(PH) is a large company that has been around for a very long time
 
 ## Results
 
-To prepare the different analyses, the original data was loaded into different database tables and relationships establised to give us a working understanding of the database structure. The following entity relationship diagram(ERD) was designed to provide implementation guidance and as a documentary guide for future reference.
+To prepare the different analyses requested by PH, the original data was loaded into postgreSQL database tables and relationships establised to give us a working understanding of the data structure. The following entity relationship diagram(ERD) was designed to provide implementation guidance and as a documentary guide for future reference.
 
 ![ERD Model](images/EmployeeDB_ERD.png)
 
@@ -55,7 +55,8 @@ To prepare the different analyses, the original data was loaded into different d
 - Eventually 90,398 new roles will need to be filled for PH as the impact of retirement begins to unfold for the baby boomers employed at PH.
 - Of specific note when analyzing the different business units below, we can see that there are four departments that do not currently have a manager allocated in a leadership position.
 - Further, 2 of the 5 current managers are eligible for the retirement package as identified below in the table report.
-- It is imperative that new and qualified managerial candiates be hired or promoted internally and placed into these position as soon as possible. Managerial input for each business group will be a necessity in job assignments and allocating mentors in a suitable manner.
+- It is imperative that new and qualified managerial candiates be hired or promoted internally and placed into these position as soon as possible. 
+- Managerial input for each business group will be a necessity in job assignments and allocating mentors in a suitable manner.
 
 ### Managers by Department
 
@@ -66,16 +67,16 @@ To prepare the different analyses, the original data was loaded into different d
 ![Retirement Managers](images/Summary_Managers2.png)
 
 - Of the 1,549 employees who qualify as retirement-ready mentors from the list below, the following breakdown outlines the different roles they are able to provide mentorship for new employees of PH.
-- Generally, it appears that there is a good level of coverage amongst the different business units.
+- Generally, it appears that there is a good level of coverage amongst the different employee groups.
 - Each employee group is represented except the manager group as noted previously.
 
 ### Mentors by Title
 
 ![Mentorship Titles](images/Mentorship_Titles.png)
 
-- Further analysis shows us that if all employees accepted mentorship positions they will have the following ratios of new employees to actively advise.
+- Further analysis shows us that if all employees accepted mentorship positions who qualify, they will have the following ratios of new employees to actively advise.
 - We can see that the Sr. Engineer position should be a point of emphasis as there is a ratio of 1 mentor for a possible 174 new employees. Viable considerations would be to change the mentorship criteria or seek mentors outside of PH in the broader engineering business community or perhaps employees of PH who have retired recently in similar roles.
-- Likewise we have no managerial mentors available to advise new managers.
+- Likewise, we have no qualified managerial mentors available to advise new managers.
 - The mentorship ratios below will need to be further analyzed with management to determine what a good ratio level should be for each mentor candidate with respect to newly hired employees.
 
 ### Mentorship to New Employee Ratio
