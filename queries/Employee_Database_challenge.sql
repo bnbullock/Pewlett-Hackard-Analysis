@@ -77,6 +77,6 @@ WHERE (de.to_date = '9999-01-01') AND (e.birth_date BETWEEN '1965-01-01' AND '19
 order by e.emp_no;
 
 -- Check the table
-SELECT * FROM mentorship_eligibilty;
+SELECT * FROM mentorship_eligibility;
 
 --#10 Export Mentorship Eligibility table - manually
