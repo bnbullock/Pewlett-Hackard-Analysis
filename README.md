@@ -73,6 +73,7 @@ To prepare the different analyses, the original data was loaded into different d
 - Further analysis shows us that if all employees accepted mentorship positions they will have the following ratios of new employees to actively advise.
 - We can clearly see that the Sr. Engineer position should be a point of emphasis as there is a ratio of 1 mentor for a possible 174 new employees. Viable considerations would be to change the mentorship criteria or seek mentors outside of PH in the broader engineering business community.
 - Likewise we have no managerial mentors available to advise new managers.
+- The mentorship ratios below will need to be further analyzed with management to determine what a good ratio level should be for each mentor candidate with respect to title.
 
 ### Mentorship to New Employee Ratio
 

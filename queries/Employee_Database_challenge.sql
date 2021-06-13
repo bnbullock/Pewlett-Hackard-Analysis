@@ -1,17 +1,12 @@
 -- Deliverable #1
 
 --#1 Retrieve emp_no, first_name and last_name from the Employees table
-
+--#2 Retrieve title, from_date, to_date from the Titles table
+--#3-5 create new table, join emp & titles, filter on birthdate
 SELECT emp_no, first_name, last_name
 FROM employees;
-
---#2 Retrieve title, from_date, to_date from the Titles table
-
 SELECT title, from_date, to_date
 FROM titles;
-
---#3-5 create new table, join emp & titles, filter on birthdate
-
 SELECT e.emp_no,
 	e.first_name,
 	e.last_name,
@@ -29,8 +24,8 @@ ORDER BY emp_no;
 SELECT * FROM retirement_titles;
 
 --#6,7 Export retirement_titles table to a csv file manually
---#8-12 Use Dictinct with Orderby to remove duplicate rows
 
+--#8-12 Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (emp_no) emp_no,
 first_name,
 last_name,
@@ -45,7 +40,6 @@ SELECT * FROM unique_titles;
 --#13 Export unique_titles table to a csv file manually
 
 --#15-18 New Query, retrieve employee count by title
-
 SELECT COUNT(title) AS "Count", title
 INTO retiring_titles
 FROM unique_titles
@@ -60,15 +54,12 @@ SELECT * FROM retiring_titles;
 -- Deliverable #2
 
 --#1 Retrieve emp_no, fn, ln and bd from the Employees table
-
-SELECT emp_no, first_name, last_name, birth_date
-FROM employees;
-
 --#2 Retrieve from_date & to_date from the dept_emp table
 --#3 Retrieve the title column from the titles table
 --#4-7 Use distinct on, into, join e and de, join e and t
 --#8-9 filter Filter and order results
-
+SELECT emp_no, first_name, last_name, birth_date
+FROM employees;
 SELECT DISTINCT ON (e.emp_no) e.emp_no, 
 	e.first_name, 
 	e.last_name, 

@@ -3,7 +3,7 @@
 ---------------------------------------------
 
 -- Departments showing current manager counts
-SELECT dm.dept_no, d.dept_name, COUNT(ce.emp_no)
+SELECT dm.dept_no, d.dept_name, COUNT(ce.emp_no) AS "manager count"
 FROM dept_manager AS dm
 LEFT JOIN current_emp AS ce
 ON dm.emp_no = ce.emp_no
@@ -12,12 +12,10 @@ ON dm.dept_no = d.dept_no
 GROUP BY dm.dept_no, d.dept_name
 ORDER BY dm.dept_no;
 
-SELECT * FROM unique_titles;
-
 -- Current managers who are eligible for the retirement package 
 SELECT ut.first_name, ut.last_name, ut.title  
 FROM unique_titles AS ut
-WHERE title = 'Manager';
+WHERE ut.title = 'Manager';
 
 ---------------------------------------------
 -- Summary #2
@@ -33,3 +31,5 @@ ORDER BY "Count" DESC;
 
 -- Check the table
 SELECT * FROM mentor_roles;
+
+-- Exported to the data folder as 'mentor_roles.csv'
