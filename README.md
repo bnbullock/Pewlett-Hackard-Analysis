@@ -12,6 +12,7 @@ Pewlett Hackard(PH) is a large company that has been around for a very long time
 ## Resources
 - Database Client: pgAdmin v5.2
 - Database Server: PostgreSQL v13
+- Database ERD Design: www.quickdatabasediagrams.com
 - CSV Files created: retirement_titles.csv, unique_titles.csv, retiring_titles.csv, mentorship_eligibility.csv, mentor_roles.csv
 - Software: Visual Studio Code 1.56.2
 ---------------------------
